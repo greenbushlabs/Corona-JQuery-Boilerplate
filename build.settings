@@ -1,0 +1,32 @@
+settings =
+{
+		android =
+		{
+				versionCode = "11",
+				usesPermissions =
+				{
+						"android.permission.INTERNET",
+						"android.permission.WRITE_EXTERNAL_STORAGE",
+						"android.permission.ACCESS_FINE_LOCATION",
+						"android.permission.ACCESS_COARSE_LOCATION",
+				},
+		},
+
+	iphone =
+		 {
+				 plist =
+				 {
+						 CFBundleDisplayName = "My Corona App",
+						 CFBundleName = "My Corona App",
+						 UIApplicationExitsOnSuspend = false,
+						 UIPrerenderedIcon = true,
+						 UIStatusBarHidden = true,
+						 MinimumOSVersion = "7.0",
+				 },
+		 },
+
+		orientation =
+    {
+        default = "portrait",
+    },
+}
